@@ -1,0 +1,350 @@
+@font-face {
+    src: url(../fonts/Exo-Thin.ttf);
+    font-family: 'Exo-thin';
+}
+@font-face {
+    src: url(../fonts/Exo-Regular.ttf);
+    font-family: 'Exo-Regular';
+}
+@font-face {
+    src: url(../fonts/Exo-Medium.ttf);
+    font-family: 'Exo';
+}
+@keyframes text-focus-in {
+    0% {
+    filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    filter: blur(0px);
+    opacity: 1;
+    }
+}
+  
+body, main {
+    width: 1280px;
+    margin: 0 auto;
+}
+body {
+    background: url(../images/dtt.svg), url(../images/dtt.svg);
+    background-position: bottom, left 47%;
+    background-repeat: no-repeat, no-repeat;
+    box-shadow: 0 3px 6px #323969;
+}
+header {
+    background: url(../images/headerbg.png) no-repeat ;
+    height: 813px;
+}
+.welcometext {
+    padding-top: 170px;
+    font-family: 'Exo-thin', sans-serif;
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: 2.4px;
+    text-align: center;
+}
+.playvideoicon:hover, .trynowbutton:hover {
+  -webkit-filter: brightness(125%); 
+}
+.buttonplay {
+    text-align: center;
+    padding-top: 70px;
+}
+.trynow { 
+    text-align: center;    
+    padding-top: 39px;
+}
+.trynowbutton {
+    padding: 15px 50px 15px 50px;
+    background:#ff6d6d;
+    font-family: 'Exo-Regular', sans-serif;
+    text-decoration: none;
+    color: white;
+    line-height: 4.69;
+    letter-spacing: 3.2px;
+    transition: 0.3s;
+    border-radius: 13px;
+}
+.descbutton {
+    opacity: 0.6;
+    font-family: 'Exo-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 2.4;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: rgba(40, 40, 40, 0.6);
+}
+.OurdesignLeft {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.randompic {
+    float:right;
+    width: 30%;
+    margin-right: -40px;
+}
+.NewDesignText {
+    height: 13px;
+    font-family: 'Exo',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 3.13;
+    letter-spacing: 3.2px;
+    color: #ff6d6d;
+}
+.NewDesignDesc {
+  width: 570px;
+  height: 93px;
+  font-family: 'Exo',sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 1.6px;
+}
+.NewDesignTextP {
+    width: 571px;
+    height: 200px;
+    opacity: 0.66;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.6px;
+    color: rgba(40, 40, 40, 0.66);
+}
+.NewFeatures {
+    background: url(../images/BG.png);
+    clear: both;
+    height: 674px;
+    background-position: center bottom;
+}
+.NewFeaturesDesc {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    line-height: 3.13;
+    letter-spacing: 3.2px;
+    color: #ff6d6d;
+    margin-top: 0;
+}
+.NewFeaturesDesc1 {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+}
+.gridtest {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 30px;
+}
+.aboutproducttext {
+    font-family: 'Exo', sans-serif;
+}
+.textinsideNewFeatures {
+    padding-left: 40px;
+    width: 342px;
+    height: 70px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.6px;
+    color: rgba(40, 40, 40, 0.66);
+}
+h2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.reviews {
+    background: url(../images/BGblack.png);
+    height: 600px; 
+}
+.reviewsInside {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.comments1, .comments2, .comments3 {
+    padding: 50px 30px 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.unitpic {
+    background: url(../images/clients/Unit1.png)no-repeat center;
+    width: 175px;
+    height: 175px;
+}
+.reviewunit {
+    opacity: 0.66;
+    font-family: 'Exo', sans-serif;
+    font-style: italic;
+    line-height: 1.63;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+}
+.Logos { 
+    margin-top: 100px;
+    text-align: center;
+}
+.FooterInside {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.StartExtext {
+    width: 230px;
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: rgba(40, 40, 40, 0.56);
+    list-style-type: none;
+}
+ul {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.6px;
+    color: rgba(40, 40, 40, 0.56);
+    list-style-type: none;
+    padding-left: 0;
+}
+input {
+    height: 37px;
+    width: 150px;
+    opacity: 0.6;
+    border-radius: 3px;
+    float:left;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.GetNewsLetter input {
+    background: #f6f6f6;
+    border: 1px solid grey;
+}
+.FooterButton {
+    background: url(../images/10.png) no-repeat center;
+    width: 50px;
+    height: 40px;
+    box-shadow: 0px 3px 3px 0 rgba(14, 15, 15, 0.25);
+    background-color: #ff6d6d;
+    border-radius: 3px;
+    border: 2px;
+    margin-right: 5px;
+}
+.FooterButton:hover {
+    transform: scale(1.1, 1);
+    cursor: pointer;
+}
+.socialmedia {
+    margin-left: 20px;
+    margin-top: 9px;
+}
+i {
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: grey;
+    transition-duration: .3s;
+}
+.Browser {
+    background: #f6f5f3;
+    height: 772px;
+}
+.BrowserInside {
+    text-align: center;
+}
+.BrowserText {
+    width: 647px;
+    font-family: 'Exo', sans-serif;
+    line-height: 1.63;
+    letter-spacing: 0.6px;
+    color: rgba(40, 40, 40, 0.66);
+    padding-left: 300px;
+}
+.BrowserImg {
+    padding-top: 50px;
+}
+.SignUp {
+    background: #323969;
+    height: 500px;
+}
+.SignUpText {
+    font-family: 'Exo', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #ffffff;
+}
+.SignUpInputs {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    margin-left: 120px;
+}
+.days {
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #f6f5f3;
+    padding-right: 130px;
+}
+.SignUpButton {
+    background: #ff6d6d;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    color: #f6f5f3;
+    border: 1px solid;
+    border-radius: 13px;
+    box-shadow: 0px 3px 3px 0 rgba(14, 15, 15, 0.25);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.SignUpButton:hover {
+    background: #ce4040;
+    transform: scale(1.03, 1.01);
+}
+.SignUpInputs input{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    line-height: 4.69;
+    letter-spacing: 0.6px;
+    color: #f6f5f3;
+    background: #474d78;
+    opacity: 0.9;
+    border: 1px solid;
+    border-radius: 13px;
+}
+.SignUpDown, .SignUpDownWarning{
+    opacity: 0.6;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: rgba(246, 245, 243, 0.6);
+    margin-top: 70px;
+}
+.SignUpDownWarning {
+    text-decoration: underline;
+}
+.picture img, .Airplane img, .bulb img {
+    transition-duration: 1.5s;
+}
+.picture img:hover, .Airplane img:hover, .bulb img:hover {
+    transform: rotateY(360deg);
+}
+i:hover {
+    transform: scale(1.3, 1.3);
+}
+.welcometext, .buttonplay, .trynow, .descbutton {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}

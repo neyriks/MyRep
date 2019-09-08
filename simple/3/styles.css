@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Cambria';
+    src: url(fonts/Cambria.ttf);
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(fonts/BebasNeue.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/Helvetica.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+
+.Logo span {
+    color: #404040;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 19px;
+    font-family: 'BebasNeue';
+}
+
+.Logo a {
+    text-decoration: none;
+}
+
+.Logo p {
+    font-family: "Arial MT";
+    font-size: 15px;
+    line-height: 3px;
+    color: #404040;
+}
+
+.topnav a {
+    color: #404040;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 70px 10px 10px 10px;
+    font-family: "Helvetica";
+    transition-duration: 0.1s;
+    text-transform: uppercase;
+}
+
+.topnav a:hover {
+    background-color: #d45e5e;
+    color: #fff;
+}
+
+.MainText {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.MainText p {
+    background: #ffffff;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-style: italic;
+    line-height: 36px;
+    color: #404040;
+    font-family: 'Cambria';
+    box-shadow: 0 8px 20px -11px rgb(64, 64, 64, 0.3);
+
+}
+
+.MainContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    grid-template-rows: 1fr 1fr 100px;
+    margin-left: 100px;
+}
+
+.MainContent img {
+    transition-duration: 0.5s;
+}
+
+.MainContent img:hover {
+    transform: scale(1.1);
+}
+
+#TextPicture {
+    margin-top: -65px;
+}
+
+h1 {
+    font-family: 'Cambria';
+    font-style: italic;
+    color: #404040;
+    font-size: 23px;
+    margin: 50px 0 50px 150px;
+}
+
+footer {
+    background: #282828;
+    height: 39px;
+    color: #ffffff;
+    line-height: 39px;
+}
+
+footer span {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    color: #949494;
+}
+
+.Main-aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #d45e5e;
+    width: 100%;
+    color: white;
+}
+
+.aboutmeFace p {
+    font-size: 25px;
+    font-style: italic;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.Main-aboutme img {
+    float: left;
+    margin: -30px 35px 36px 100px;
+    border: 7px solid white;
+}
+
+.Text-aboutme p {
+    clear: both;
+    width: 586px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 100px;
+
+}
+
+.MySkills {
+    width: 33%;
+    font-family: 'Cambria';
+}
+
+.MySkills p {
+    font-size: 25px;
+}
+
+.SocialMedia {
+    padding-top: 30px;
+}
+
+.SocialMedia i {
+    font-size: 50px;
+    padding-right: 30px;
+}
+
+.SocialMedia i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+progress {
+    border: 0;
+    width: 300px;
+    height: 20px;
+    background: #e27878;
+}
+
+progress::-webkit-progress-bar {
+    width: 300px;
+    height: 20px;
+    background: #e27878;
+}
+
+progress::-webkit-progress-value {
+    background: #282828;
+}
+
+progress::-moz-progress-bar {
+    background: #282828;
+}
