@@ -15,7 +15,7 @@
 # Планы:
 
 - [x] Добавить макет на чистом css+html+bootstrap, используя БЭМ, адаптив. (Simple - 4)
-- [x] Добавить макет с использованием сетки bootstrap (БЭМ), препроцессор SASS, адаптив. (neyriks.github.io)
+- [x] Добавить макет с использованием сетки bootstrap (БЭМ), препроцессор SASS, адаптив.
 - [ ] Добавить макет с использованием ванильного JS. :alarm_clock:  Deadline -  :alarm_clock:
 - [ ] Добавить работы на ReactJS / Vue.js. :alarm_clock:  Deadline -  :alarm_clock:
 
